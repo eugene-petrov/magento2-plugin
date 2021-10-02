@@ -14,6 +14,7 @@ class ModifyBreadcrumbs
      * @param array $crumbInfo
      *
      * @return array
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function beforeAddCrumb(Breadcrumbs $subject, string $crumbName, array $crumbInfo): array
     {
