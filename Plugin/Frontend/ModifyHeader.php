@@ -15,6 +15,7 @@ class ModifyHeader
      * @param array ...$args
      *
      * @return Phrase
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function aroundGetWelcome(Header $subject, callable $proceed, ...$args): Phrase
     {
@@ -27,6 +28,7 @@ class ModifyHeader
      * @param string|null $result
      *
      * @return string
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function afterGetWelcome(Header $subject, string $result = null): string
     {
